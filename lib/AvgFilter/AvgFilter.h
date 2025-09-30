@@ -29,6 +29,8 @@ class AvgFilter {
   float mean()  const { return count_ ? (sum_ / count_) : 0.0f; }
   size_t size() const { return w_; }
   size_t count()const { return count_; }
+  float update(float v) { push(v); return mean(); }
+
 
  private:
   size_t w_;

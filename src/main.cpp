@@ -10,7 +10,7 @@
 #endif
 
 #ifndef ANALOG_PIN
-  #define ANALOG_PIN 34    // ADC en ESP32 (entrada sólo, sin pullups)
+  #define ANALOG_PIN 4    // ADC en ESP32 (entrada sólo, sin pullups)
 #endif
 
 // Filtros
